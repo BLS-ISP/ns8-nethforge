@@ -1,17 +1,20 @@
 name: repomd
-on: 
+on:
   push:
     branches: main
   workflow_dispatch:
   schedule:
-  - cron:  '25 0,6,12,18 * * *'
+  - cron: '25 0,6,12,18 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   repomd:
     runs-on: ubuntu-latest
     steps:
     - id: checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - id: buildmd
       run: |
@@ -29,7 +32,6 @@ jobs:
         mv -v repodata.json .dst/ns8/updates
         cp -av $(ls -d */) .dst/ns8/updates/
         cp -v README.md .dst/index.md
-        echo forge.nethserver.org > .dst/CNAME
         git add .dst/
         TREE=$(git write-tree --prefix=.dst)
         COMMIT=$(git commit-tree -m "${COMMIT_MESSAGE}" ${TREE})
@@ -37,7 +39,7 @@ jobs:
         {
           echo "Repository metadata has been published to"
           echo ""
-          echo "https://raw.githubusercontent.com/${{ github.repository }}/${REMOTE_BRANCH}/repodata.json"
+          echo "https://raw.githubusercontent.com/${{ github.repository }}/${REMOTE_BRANCH}/ns8/updates/"
           echo ""
           echo "Source"
           echo ""
