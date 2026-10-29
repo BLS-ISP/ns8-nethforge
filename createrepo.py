@@ -127,12 +127,12 @@ for entry_path in glob.glob(path + '/*'): # do not match .git and similar
     metadata["versions"] = []
     # Parse the image info from remote registry to retrieve tags
     try:
-        with subprocess.Popen(["skopeo", "inspect", 'docker://' + metadata["source"]], stdout=subprocess.PIPE, stderr=sys.stderr) as proc:
+        with subprocess.Popen(["skopeo", "list-tags", 'docker://' + metadata["source"]], stdout=subprocess.PIPE, stderr=sys.stderr) as proc:
             repo_inspect = json.load(proc.stdout)
 
         # Filter out non-semver tags and reverse-sort remaining tags from
         # younger to older:
-        semver_tags = list(sorted(filter(semver.VersionInfo.is_valid, repo_inspect["RepoTags"]),
+        semver_tags = list(sorted(filter(semver.VersionInfo.is_valid, (repo_inspect.get("Tags") or repo_inspect.get("RepoTags") or [])),
             key=semver.parse_version_info,
             reverse=True,
         ))
