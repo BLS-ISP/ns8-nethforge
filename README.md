@@ -8,6 +8,7 @@ This repository provides the NethServer 8 (NS8) Software Center index for module
 - **[GitLab CE](https://github.com/BLS-ISP/NS8-GitLab)** (`ghcr.io/bls-isp/gitlab`) — Self-hosted GitLab Community Edition DevSecOps platform for Git repositories, CI/CD (with auto-registered rootless Podman Runner), Container Registry, NS8 LDAP/AD authentication, Smarthost integration, and Git over SSH.
 - **[VPN Portal](https://github.com/BLS-ISP/ns8-vpnportal)** (`ghcr.io/bls-isp/vpn`) — Business Roadwarrior & Site-to-Site VPN combining WireGuard and IPv4/IPv6 DS-Lite OpenVPN TCP fallback with live NS8 Active Directory / OpenLDAP user lifecycle sync, Traefik TOTP 2FA Self-Service Portal, and compliance Audit Logging.
 - **[Mail Toolbox](https://github.com/BLS-ISP/ns8-mailtoolbox)** (`ghcr.io/bls-isp/mail-toolbox`) — Delegated secretariat Out-of-Office & forwarding portal (with non-destructive SOGo coexistence), central Before-DKIM dynamic AD/LDAP company signatures, daily spam quarantine digest with scanner-safe release, Rspamd mail-tracking search, and external POP3/IMAP connectors.
+- **[SoftwareManager](https://github.com/BLS-ISP/ns8-softwaremanager)** (`ghcr.io/bls-isp/softwaremanager`) — Central cross-platform endpoint, OS patch (Windows WUA & Linux APT/DNF), and self-service Software Center manager for Windows and Linux workstations and servers with Ed25519-signed deployments, custom SHA-256 package repository, maintenance windows, and NS8 AD/LDAP authentication.
 
 ## How to add this repository in NethServer 8
 
