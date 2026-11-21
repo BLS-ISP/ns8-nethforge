@@ -1,0 +1,26 @@
+{
+  "name": "VPN Portal",
+  "upstream_name": "WireGuard & OpenVPN",
+  "description": {
+    "en": "Business Roadwarrior & Site-to-Site VPN (WireGuard & IPv4/IPv6 DS-Lite OpenVPN TCP Fallback) with NS8 Active Directory / OpenLDAP user lifecycle sync, TOTP 2FA Self-Service Portal, and compliance Audit Logging",
+    "de": "Business-Einwahl- & Standort-VPN (WireGuard & IPv4/IPv6 DS-Lite OpenVPN-TCP-Fallback) mit NS8 Active Directory- / OpenLDAP-Synchronisation, TOTP-2FA Self-Service-Portal und Compliance-Audit-Protokoll"
+  },
+  "categories": [
+    "security",
+    "network"
+  ],
+  "authors": [
+    {
+      "name": "BLS-ISP",
+      "email": "info@bls-isp.de"
+    }
+  ],
+  "docs": {
+    "terms_url": "https://github.com/BLS-ISP/ns8-vpnportal#data-privacy--terms",
+    "documentation_url": "https://github.com/BLS-ISP/ns8-vpnportal",
+    "bug_url": "https://github.com/BLS-ISP/ns8-vpnportal/issues",
+    "code_url": "https://github.com/BLS-ISP/ns8-vpnportal",
+    "relnotes_url": "https://github.com/BLS-ISP/ns8-vpnportal/releases"
+  },
+  "source": "ghcr.io/bls-isp/vpnportal"
+}
