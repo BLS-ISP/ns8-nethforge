@@ -1,0 +1,26 @@
+{
+  "name": "Central Monitoring Hub",
+  "upstream_name": "Prometheus, Loki, Alertmanager & Grafana",
+  "description": {
+    "en": "Multi-tenant MSP monitoring, logging, alerting, and Grafana portal hub for NethServer 8, Linux, Windows, Proxmox VE, Web/SSL, and SNMP infrastructure.",
+    "de": "Mandantenfähiger MSP-Monitoring-, Logging-, Alerting- und Grafana-Portal-Hub für NethServer 8, Linux, Windows, Proxmox VE, Web/SSL und SNMP-Infrastrukturen."
+  },
+  "categories": [
+    "monitoring",
+    "administration"
+  ],
+  "authors": [
+    {
+      "name": "BLS-ISP",
+      "email": "info@bls-isp.de"
+    }
+  ],
+  "docs": {
+    "documentation_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice#readme",
+    "bug_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice/issues",
+    "code_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice",
+    "terms_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice/blob/main/LICENSE",
+    "relnotes_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice/releases"
+  },
+  "source": "ghcr.io/bls-isp/central-monitoring-hub"
+}

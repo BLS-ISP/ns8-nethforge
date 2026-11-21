@@ -1,0 +1,26 @@
+{
+  "name": "Central Monitoring Collector",
+  "upstream_name": "Grafana Alloy & Prometheus Exporters",
+  "description": {
+    "en": "Lightweight rootless Grafana Alloy telemetry and log collector pushing NethServer 8 and customer LAN infrastructure metrics (Proxmox VE, Windows, Linux, SNMP v2c/v3, Syslog) to Central Monitoring Hub over HTTPS.",
+    "de": "Leichtgewichtiger Rootless-Grafana-Alloy-Standortkollektor zum sicheren ausgehenden HTTPS-Push von NethServer-8- und Kunden-LAN-Metriken (Proxmox VE, Windows, Linux, SNMP v2c/v3, Syslog) an den Central Monitoring Hub."
+  },
+  "categories": [
+    "monitoring",
+    "administration"
+  ],
+  "authors": [
+    {
+      "name": "BLS-ISP",
+      "email": "info@bls-isp.de"
+    }
+  ],
+  "docs": {
+    "documentation_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice#readme",
+    "bug_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice/issues",
+    "code_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice",
+    "terms_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice/blob/main/LICENSE",
+    "relnotes_url": "https://github.com/BLS-ISP/ns8-centralmonitoringservice/releases"
+  },
+  "source": "ghcr.io/bls-isp/central-monitoring-collector"
+}
