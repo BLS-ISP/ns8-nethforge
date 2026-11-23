@@ -2,8 +2,8 @@
   "name": "Mail Toolbox",
   "upstream_name": "NS8 Mail Toolbox",
   "description": {
-    "en": "Delegated secretariat vacation/forwarding portal, central Before-DKIM company signatures, spam quarantine digest, Rspamd mail tracking, and external POP3/IMAP connectors for NethServer 8 Mail",
-    "de": "Delegierbare Sekretariats-Abwesenheitsverwaltung, zentrale Before-DKIM-Firmensignaturen, Spam-Quarantäne-Digest, Rspamd-Mail-Verlaufssuche und externe POP3/IMAP-Connectoren für NethServer 8 Mail"
+    "en": "Delegated secretariat vacation/forwarding portal, central Before-DKIM company signatures, spam quarantine digest, Rspamd mail tracking, and external POP3/IMAP connectors & IMAP-Sync bridge for NethServer 8 Mail",
+    "de": "Delegierbare Sekretariats-Abwesenheitsverwaltung, zentrale Before-DKIM-Firmensignaturen, Spam-Quarantäne-Digest, Rspamd-Mail-Verlaufssuche sowie externe POP3/IMAP-Connectoren & IMAP-Sync-Bridge für NethServer 8 Mail"
   },
   "categories": ["collaboration"],
   "authors": [
