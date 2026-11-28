@@ -1,0 +1,26 @@
+{
+  "name": "AdvancedPolicyManager",
+  "upstream_name": "NS8 AdvancedPolicyManager",
+  "description": {
+    "en": "Central policy, privilege, and workstation configuration manager for Windows, Linux, and macOS with NS8 Samba AD and OpenLDAP integration",
+    "de": "Zentrale Richtlinien-, Berechtigungs- und Arbeitsplatz-Verwaltung für Windows, Linux und macOS mit NS8 Samba-AD- und OpenLDAP-Integration"
+  },
+  "categories": [
+    "security",
+    "monitoring"
+  ],
+  "authors": [
+    {
+      "name": "BLS-ISP",
+      "email": "info@bls-isp.de"
+    }
+  ],
+  "docs": {
+    "documentation_url": "https://github.com/BLS-ISP/ns8-advancedpolicymanager#readme",
+    "bug_url": "https://github.com/BLS-ISP/ns8-advancedpolicymanager/issues",
+    "code_url": "https://github.com/BLS-ISP/ns8-advancedpolicymanager",
+    "terms_url": "https://github.com/BLS-ISP/ns8-advancedpolicymanager/blob/main/LICENSE",
+    "relnotes_url": "https://github.com/BLS-ISP/ns8-advancedpolicymanager/releases"
+  },
+  "source": "ghcr.io/bls-isp/advancedpolicymanager"
+}

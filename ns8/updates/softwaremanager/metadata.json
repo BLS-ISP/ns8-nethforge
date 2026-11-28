@@ -1,0 +1,26 @@
+{
+  "name": "SoftwareManager",
+  "upstream_name": "NS8 SoftwareManager",
+  "description": {
+    "en": "Central endpoint, OS patch, and self-service Software Center manager for Windows and Linux workstations and servers",
+    "de": "Zentrales Endpoint-, Betriebssystem-Patch- und Self-Service-Software-Center-Management für Windows- und Linux-Systeme"
+  },
+  "categories": [
+    "security",
+    "monitoring"
+  ],
+  "authors": [
+    {
+      "name": "BLS-ISP",
+      "email": "info@bls-isp.de"
+    }
+  ],
+  "docs": {
+    "documentation_url": "https://github.com/BLS-ISP/ns8-softwaremanager#readme",
+    "bug_url": "https://github.com/BLS-ISP/ns8-softwaremanager/issues",
+    "code_url": "https://github.com/BLS-ISP/ns8-softwaremanager",
+    "terms_url": "https://github.com/BLS-ISP/ns8-softwaremanager/blob/main/LICENSE",
+    "relnotes_url": "https://github.com/BLS-ISP/ns8-softwaremanager/releases"
+  },
+  "source": "ghcr.io/bls-isp/softwaremanager"
+}
